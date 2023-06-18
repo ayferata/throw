@@ -7,7 +7,9 @@ return value.indexOf(searchedText);
 
 import java.util.Scanner; 
 public class HataYakala { 
-public static void checkAge(int age) { if (age < 18) { throw new ArithmeticException("Hatalı Yaş");         }
+public static void checkAge(int age) { 
+if (age < 18) { 
+throw new ArithmeticException("Hatalı Yaş");         }
 
 System.out.println("Yasaktan Muaf !");     }
 
